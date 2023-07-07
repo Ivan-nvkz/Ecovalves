@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ecovalves</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/nouislider.min.css">
+   <link rel="stylesheet" href="css/choices.min.css">
+   <link rel="stylesheet" href="css/splide.min.css">
+   <link rel="stylesheet" href="css/air-datepicker.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+   <div class="wrapper">
+
+      <div class="btn__up">&uarr;</div>
+
+      <header class="header">
+         <div class="container">
+            <div class="header__inner">
+               <div class="header__top header-top">
+                  <div class="header-top__info-block">
+                     <div class="header-top__city">
+                        <img class="header-top__city-icon" src="images/icons/location-icon.svg" alt="">
+                        <div class="header-top__city-name">Москва</div>
+                     </div>
+                     <div class="header-top__office-hours">
+                        <img class="office-hours__icon" src="images/icons/time-icon.svg" alt="">
+                        <div class="office-hours__days">Пн-Пт</div>
+                        <div class="office-hours__watch">09:00-18:00</div>
+                     </div>
+                  </div>
+                  <div class="header-top__navigation-block">
+                     <div class="header__navigation">
+                        <nav class="menu">
+                           <ul class="menu__list">
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">О компании</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Отзывы</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Новости</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Контакты</a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+               <div class="header__bottom header-bottom">
+                  <div class="header-bottom__logo">
+                     <a class="logo" href="#">
+                        <img class="logo__img" src="images/header/logo.svg" alt="логотип">
+                     </a>
+                  </div>
+                  <div class="header-bottom__content">
+                     <div class="header-bottom__actions">
+                        <div class="header-bottom__search">
+                           <form class="header__search-form" action="#">
+                              <button class="search-header__btn" type="submit">
+                                 <img class="search-header__icon" src="images/icons/search-icon.svg"
+                                    alt="иконка поиска">
+                              </button>
+                              <input class="search-header__input" autocomplete="off" type="text"
+                                 placeholder="Я хочу найти..">
+                           </form>
+                        </div>
+                        <div class="header-bottom__contacts">
+                           <div class="header-contacts__mail-box">
+                              <img class="header-contacts__mail-img" src="images/icons/mail-icon.svg" alt="">
+                              <a class="header-contacts__mail" href="mailto:username@gmail.com">
+                                 username@gmail.com
+                              </a>
+                           </div>
+                           <div class="header-contacts__phone-box">
+                              <img class="header-contacts__phone-img" src="images/icons/phone-icon.svg" alt="">
+                              <a class="header-contacts__phone" href="tel:+70000000000">
+                                 +7 000 000 00 00
+                              </a>
+                           </div>
+                           <div class="header-contacts__calculate-box">
+                              <a class="header-contacts__calculate" href="#">
+                                 Рассчитать заказ
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="header-bottom__products">
+                        <nav class="products__menu products-menu">
+                           <ul class="products-menu__list">
+                              <!--===== sub-menu =====-->
+                              <li class="products-menu__list-item">
+                                 <img class="products-menu__list-img" src="images/icons/products-menu-icon-01.svg"
+                                    alt="">
+                                 <a class="products-menu__list-link" href="#">Запорная арматура</a>
+                                 <img class="arrow" src="images/icons/arrow.svg" alt="">
+                                 <ul class="sub-menu__list">
+                                    <li class="sub-menu__list-wrapper">
+                                       <ul class="sub-menu__list-inner">
+                                          <li class="sub-menu__list-item  ">
+                                             <a class="sub-menu__list-link" href="#">Клапаны регулирующие наклонные</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Клапаны регулирующие наклонные</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Регулирующая арматура</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Регулирующая арматура</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Регулирующая арматура</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <!--===== sub-menu =====-->
+                              <li class="products-menu__list-item">
+                                 <img class="products-menu__list-img" src="images/icons/products-menu-icon-02.svg"
+                                    alt="">
+                                 <a class="products-menu__list-link" href="#">Клапаны электромагнитные</a>
+                                 <img class="arrow" src="images/icons/arrow.svg" alt="">
+                                 <ul class="sub-menu__list">
+                                    <li class="sub-menu__list-wrapper">
+                                       <ul class="sub-menu__list-inner">
+                                          <li class="sub-menu__list-item  ">
+                                             <a class="sub-menu__list-link" href="#">Клапаны регулирующие наклонные</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Клапаны регулирующие наклонные</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Регулирующая арматура</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Регулирующая арматура</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Регулирующая арматура</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <!--===== sub-menu =====-->
+                              <li class="products-menu__list-item">
+                                 <img class="products-menu__list-img" src="images/icons/products-menu-icon-03.svg"
+                                    alt="">
+                                 <a class="products-menu__list-link" href="#">Регулирующая арматура</a>
+                                 <img class="arrow" src="images/icons/arrow.svg" alt="">
+                                 <ul class="sub-menu__list">
+                                    <li class="sub-menu__list-wrapper">
+                                       <ul class="sub-menu__list-inner">
+                                          <li class="sub-menu__list-item  ">
+                                             <a class="sub-menu__list-link" href="#">Клапаны регулирующие наклонные</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Клапаны регулирующие наклонные</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Регулирующая арматура</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Регулирующая арматура</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">Регулирующая арматура</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <!--===== sub-menu =====-->
+                              <li class="products-menu__list-item">
+                                 <img class="products-menu__list-img" src="images/icons/products-menu-icon-04.svg"
+                                    alt="">
+                                 <a class="products-menu__list-link" href="#">КИП</a>
+                                 <img class="arrow" src="images/icons/arrow.svg" alt="">
+                                 <ul class="sub-menu__list">
+                                    <li class="sub-menu__list-wrapper">
+                                       <ul class="sub-menu__list-inner">
+                                          <li class="sub-menu__list-item  ">
+                                             <a class="sub-menu__list-link" href="#">КИП#1</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">КИП#2</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">КИП#3</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">КИП#4</a>
+                                          </li>
+                                          <li class="sub-menu__list-item ">
+                                             <a class="sub-menu__list-link" href="#">КИП#5</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <!--===== sub-menu =====-->
+                           </ul>
+                        </nav>
+                        <a class="header-bottom__phone" href="tel:+70000000000">
+                           <img class="header-bottom__phone-img" src="images/icons/phone-icon-white.svg" alt="">
+                        </a>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+
+
+
+
+
+
+      </main>
+
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__inner">
+
+
+
+            </div>
+         </div>
+      </footer>
+
+   </div>
+
+
+
+   <div class="popup__application" id="application">
+      <form class="popup__application-form" action="#">
+         <div class="popup__application-inner">
+            <div class="application__title-box">
+               <div class="application__title">
+                  Заявка
+               </div>
+               <div class="application__sub-title">
+                  Заполните форму и мы перезвоним
+                  и ответим на все интересующие вопросы
+               </div>
+            </div>
+            <div class="application__user-box">
+               <div class="user__item">
+                  <label for="formNameModal" class="application-form__label">Ваше имя:</label>
+                  <input id="formNameModal" type="text" name="name" class="application-form__input"
+                     placeholder="Иван Иванов" autocomplete="off" required>
+               </div>
+               <div class="user__item">
+                  <label for="formPhoneModal" class="application-form__label">Номер телефона:</label>
+                  <input id="formPhoneModal" type="tel" name="phone" class="application-form__input"
+                     placeholder="+7 (999) 999 99 99" autocomplete="off" required>
+               </div>
+            </div>
+            <div class="application__btn-box">
+               <a class="application__btn" data-fancybox data-src="#thanks" href="javascript:;">
+                  Отправить
+               </a>
+            </div>
+            <div class="application__description-box">
+               <p class="application__description">
+                  Нажимая на кнопку “Отправить”, вы даете согласие на обработку своих персональных данных
+               </p>
+            </div>
+         </div>
+      </form>
+   </div>
+
+   <div class="popup__call-back" id="call-back">
+      <form class="popup__call-back-form" action="#">
+         <div class="popup__call-back-inner">
+            <div class="call-back__title-box">
+               <div class="call-back__title">
+                  Перезвонить?
+               </div>
+               <div class="call-back__sub-title">
+                  Оставьте номер телефон и мы свяжемся с вами в течение 5 минут
+               </div>
+            </div>
+            <div class="call-back__user-box">
+               <div class="user__item">
+                  <label for="formPhone" class="call-back-form__label">Номер телефона:</label>
+                  <input id="formPhone" type="tel" name="phone" class="call-back-form__input"
+                     placeholder="+7 (999) 999 99 99" autocomplete="off" required>
+               </div>
+            </div>
+            <div class="call-back__btn-box">
+               <button class="call-back__btn" type="submit">
+                  Перезвонить
+               </button>
+            </div>
+            <div class="call-back__description-box">
+               <p class="call-back__description">
+                  Нажимая на кнопку “Перезвонить”, вы даете согласие на обработку своих персональных данных
+               </p>
+            </div>
+         </div>
+      </form>
+   </div>
+
+   <div class="popup__thanks" id="thanks">
+      <form class="popup__thanks-form" action="#">
+         <div class="popup__thanks-inner">
+            <div class="popup__thanks-body">
+               <!-- <img class="popup__thanks-img" src="images/icons/thanks-icon.svg" alt=""> -->
+               <div class="popup__thanks-title">Сообщение отправлено!</div>
+               <div class="popup__thanks-text">
+                  Наши менеджеры скоро свяжутся
+                  с вами для уточнения деталей
+               </div>
+            </div>
+         </div>
+      </form>
+   </div>
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/inputmask.min.js"></script>
+   <script src="js/splide.min.js"></script>
+   <script src="js/splide-extension-auto-scroll.min.js"></script>
+   <script src="js/wNumb.min.js"></script>
+   <script src="js/choices.min.js"></script>
+   <script src="js/nouislider.min.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
